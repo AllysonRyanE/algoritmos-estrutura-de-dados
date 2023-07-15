@@ -10,26 +10,37 @@ As capas têm dois tipos: frentes e versos, que funcionam como separadores e nã
 
 # Exemplos
 
-## Case: 1
+### Case: 1
 
-Input:
+### Input:
+
 FFFVVV
 
-Output:
+### Output:
 Correto.
 
-## Case: 2
+### Case: 2
 
-Input:
+### Input:
 FFVVFV
 
-Output:
+### Output:
 Correto.
 
-## Case: 3
+### Case: 3
 
-Input:
+### Input:
 FVF
 
-Output:
+### Output:
 Incorreto, devido a capa na posição 3.
+
+### Case: 4
+
+### Input
+
+FFVVFFFVV
+
+### Output
+
+Incorreto, devido a capa na posição 7.

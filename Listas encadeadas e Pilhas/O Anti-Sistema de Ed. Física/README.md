@@ -42,20 +42,23 @@ Você deve produzir uma única linha de saída. Caso a pilha tenha sido encontra
 
 # Exemplos
 
-## Case: 1
+### Case: 1
 
-Input:
+### Input:
 110600,110730,221830,221900,331100,331130,441900
 222100
 
-Output:
+### Output:
+
 ['110600', '110730', '221830', '221900', '222100', '331100', '331130', '441900']
 
-## Case: 2
+### Case: 2
 
-Input:
+### Input:
+
 110600,551600,110730,221830,221900,331100,331130,441900
 222100
 
-Output:
+### Output:
+
 A pilha está um caos.

@@ -70,3 +70,409 @@ ALTURA: alturadaarvore
 Caso a árvore não esteja vazia: <lista dos nós restantes da árvore, em ordem>
 
 Caso a árvore esteja vazia: ARVORE VAZIA
+
+## Exemplos
+
+### Case: 1
+
+### Input
+
+DELETAR Fabinho
+
+INSERIR Fabinho
+
+DELETAR Fabinho
+
+INSERIR Chico
+
+DELETAR Chico
+
+INSERIR Jorginho
+
+MAXIMO
+
+INSERIR Juba
+
+INSERIR Wanderson
+
+INSERIR Kayke
+
+DELETAR Juba
+
+INSERIR Vagner
+
+INSERIR Pedro
+
+ALTURA
+
+MINIMO
+
+FIM
+
+### Output
+
+Fabinho NAO ENCONTRADO
+
+Fabinho INSERIDO
+
+Fabinho DELETADO
+
+Chico INSERIDO
+
+Chico DELETADO
+
+Jorginho INSERIDO
+
+MAIOR: Jorginho
+
+Juba INSERIDO
+
+Wanderson INSERIDO
+
+Kayke INSERIDO
+
+Juba DELETADO
+
+Vagner INSERIDO
+
+Pedro INSERIDO
+
+ALTURA: 3
+
+MENOR: Jorginho
+
+Jorginho Kayke Pedro Vagner Wanderson
+
+### Case: 2
+
+### Input
+
+DELETAR Love
+
+INSERIR Magrao
+
+DELETAR Magrao
+
+INSERIR Andre
+
+INSERIR Rithely
+
+ALTURA
+
+MAXIMO
+
+INSERIR Sander
+
+MINIMO
+
+DELETAR Andre
+
+ALTURA
+
+INSERIR Patric
+
+INSERIR Maidana
+
+MAXIMO
+
+DELETAR Patric
+
+DELETAR Sander
+
+INSERIR TNeves
+
+MINIMO
+
+ALTURA
+
+INSERIR Mikael
+
+MAXIMO
+
+DELETAR Mikael
+
+INSERIR Brocador
+
+INSERIR Marquinhos
+
+INSERIR Sabino
+
+ALTURA
+
+MAXIMO
+
+DELETAR Brocador
+
+DELETAR Marquinhos
+
+MINIMO
+
+INSERIR Ezequiel
+
+DELETAR Sabino
+
+INSERIR JTavares
+
+DELETAR Ezequiel
+
+MINIMO
+
+MAXIMO
+
+FIM
+
+### Output
+
+Love NAO ENCONTRADO
+
+Magrao INSERIDO
+
+Magrao DELETADO
+
+Andre INSERIDO
+
+Rithely INSERIDO
+
+ALTURA: 2
+
+MAIOR: Rithely
+
+Sander INSERIDO
+
+MENOR: Andre
+
+Andre DELETADO
+
+ALTURA: 2
+
+Patric INSERIDO
+
+Maidana INSERIDO
+
+MAIOR: Sander
+
+Patric DELETADO
+
+Sander DELETADO
+
+TNeves INSERIDO
+
+MENOR: Maidana
+
+ALTURA: 2
+
+Mikael INSERIDO
+
+MAIOR: TNeves
+
+Mikael DELETADO
+
+Brocador INSERIDO
+
+Marquinhos INSERIDO
+
+Sabino INSERIDO
+
+ALTURA: 3
+
+MAIOR: TNeves
+
+Brocador DELETADO
+
+Marquinhos DELETADO
+
+MENOR: Maidana
+
+Ezequiel INSERIDO
+
+Sabino DELETADO
+
+JTavares INSERIDO
+
+Ezequiel DELETADO
+
+MENOR: JTavares
+
+MAIOR: TNeves
+
+JTavares Maidana Rithely TNeves
+
+### Case: 3
+
+### Input
+
+MINIMO
+
+INSERIR Mailson
+
+MAXIMO
+
+INSERIR Sabino
+
+INSERIR Ricardinho
+
+INSERIR Thyere
+
+DELETAR Thyere
+
+DELETAR Mailson
+
+ALTURA
+
+MINIMO
+
+DELETAR Sabino
+
+INSERIR Gustavo
+
+DELETAR Gustavo
+
+INSERIR Patric
+
+INSERIR Moccelin
+
+DELETAR Moccelin
+
+MAXIMO
+
+INSERIR Mikael
+
+DELETAR Patric
+
+INSERIR JTavares
+
+FIM
+
+### Output
+
+ARVORE VAZIA
+
+Mailson INSERIDO
+
+MAIOR: Mailson
+
+Sabino INSERIDO
+
+Ricardinho INSERIDO
+
+Thyere INSERIDO
+
+Thyere DELETADO
+
+Mailson DELETADO
+
+ALTURA: 2
+
+MENOR: Ricardinho
+
+Sabino DELETADO
+
+Gustavo INSERIDO
+
+Gustavo DELETADO
+
+Patric INSERIDO
+
+Moccelin INSERIDO
+
+Moccelin DELETADO
+
+MAIOR: Ricardinho
+
+Mikael INSERIDO
+
+Patric DELETADO
+
+JTavares INSERIDO
+
+JTavares Mikael Ricardinho
+
+### Case: 4
+
+### Input
+
+INSERIR Ronaldo
+
+MINIMO
+
+INSERIR Everaldo
+
+INSERIR Gustavo
+
+ALTURA
+
+DELETAR Ronaldo
+
+DELETAR Everaldo
+
+INSERIR Maidana
+
+MAXIMO
+
+DELETAR Gustavo
+
+INSERIR TLopes
+
+INSERIR Welison
+
+ALTURA
+
+DELETAR Maidana
+
+DELETAR TLopes
+
+MINIMO
+
+INSERIR Iury
+
+DELETAR JWelison
+
+MAXIMO
+
+INSERIR Toro
+
+FIM
+
+### Output
+
+Ronaldo INSERIDO
+
+MENOR: Ronaldo
+
+Everaldo INSERIDO
+
+Gustavo INSERIDO
+
+ALTURA: 2
+
+Ronaldo DELETADO
+
+Everaldo DELETADO
+
+Maidana INSERIDO
+
+MAIOR: Maidana
+
+Gustavo DELETADO
+
+TLopes INSERIDO
+
+Welison INSERIDO
+
+ALTURA: 2
+
+Maidana DELETADO
+
+TLopes DELETADO
+
+MENOR: Welison
+
+Iury INSERIDO
+
+JWelison NAO ENCONTRADO
+
+MAIOR: Welison
+
+Toro INSERIDO
+
+Iury Toro Welison

@@ -39,3 +39,87 @@ Após o comando EXIB será imprimido o histórico, exemplo:
 site1.com.br
 
 site2.com.br
+
+## Exemplos
+
+### Case: 1
+
+### Input
+
+ADD youtube.com 
+
+ADD como-acabar-com-a-calvice
+
+ADD jogo-do-bixo-como-ganhar?
+
+ADD Dikastis.com.br
+
+ADD Brazino777
+
+FIND Dikastis.com.br
+
+FIND youtube.com
+
+REM Brazino777
+
+EXIB
+
+END
+
+### Output
+
+youtube.com
+
+Dikastis.com.br
+
+jogo-do-bixo-como-ganhar?
+
+como-acabar-com-a-calvice
+
+Case: 2
+
+### Input
+
+ADD 10-motivos-para-acreditar-na-terra-plana
+
+ADD chat-gpt
+
+ADD como-fazer-essa-questão-de-algoritmos
+
+ADD como-ficar-rico-vendendo-brigadeiro
+
+ADD rio-de-fevereiro-existe?
+
+ADD pinguim-tem-joelho?
+
+ADD manoel-gomes-blue-pen
+
+ADD top-10-geladeiras-da-brastemp
+
+FIND manoel-gomes-blue-pen
+
+FIND chat-gpt
+
+FIND como-fazer-essa-questão-de-algoritmos
+
+EXIB
+
+END
+
+### Output
+
+como-fazer-essa-questão-de-algoritmos
+
+chat-gpt
+
+manoel-gomes-blue-pen
+
+top-10-geladeiras-da-brastemp
+
+pinguim-tem-joelho?
+
+rio-de-fevereiro-existe?
+
+como-ficar-rico-vendendo-brigadeiro
+
+10-motivos-para-acreditar-na-terra-plana
